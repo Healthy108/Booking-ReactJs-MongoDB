@@ -1,0 +1,59 @@
+.Register {
+    width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://kenhhomestay.com/wp-content/uploads/2018/07/khach-san-dep-phu-quoc-3.jpg")
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Wrapper {
+  width: 40%;
+  padding: 20px;
+  background-color: white;
+}
+
+.Title {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.Form {
+  display: flex;
+  flex-wrap: wrap;
+} 
+
+.Input {
+  flex: 1;
+  min-width: 40%;
+  margin: 20px 10px 0px 0px;
+  padding: 10px;
+}
+
+.Agreement {
+  font-size: 12px;
+  margin: 18px 0px;
+}
+
+.Button {
+  width: 38%;
+  border: none;
+  padding: 12px 20px;
+  background-color: #0071c2;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.p {
+    font-size: 13px;
+    padding: 8px 15px;
+}
